@@ -1,0 +1,7 @@
+          |00| SET R0 , 0x03
+          |02| SET R1 , 0x00
+siguiente |04| SIG R1
+          |06| DEC R0
+          |08| JZ fin
+          |0a| JMP siguiente
+      fin |0c| JMP fin

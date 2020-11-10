@@ -1,0 +1,6 @@
+          |00| SET R0 , 0x03
+          |02| SET R1 , 0x00
+siguiente |04| ADD R1 , R0
+          |06| DEC R0
+          |08| JZ casobase
+          |0a| JMP siguiente

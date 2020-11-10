@@ -1,0 +1,6 @@
+          |00| SET R0 , 0xF0
+          |02| SET R1 , 0xF0
+siguiente |04| INT R0 , R1
+          |06| JZ fin
+          |08| JMP siguiente
+      fin |0a| JMP fin

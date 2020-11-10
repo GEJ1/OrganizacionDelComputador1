@@ -1,0 +1,4 @@
+          |00| SET R0 , 0x04
+siguiente |02| NEG R0
+          |04| JZ fin
+          |06| JMP siguiente
